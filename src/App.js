@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Header from './components/Header'
+import Header from './components/Header/Header'
 import MainNav from './components/MainNav'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Trending from './pages/Trending/Trending';
