@@ -41,10 +41,18 @@ export default function MainNav() {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction label="Trending" icon={<WhatshotIcon />} />
-      <BottomNavigationAction label="Movies" icon={<MovieIcon />} />
-      <BottomNavigationAction label="Tv" icon={<TvIcon />} />
-      <BottomNavigationAction label="Trending" icon={<SearchIcon />} />
+      <BottomNavigationAction label="Trending"
+      style={{color: "white"}}
+      icon={<WhatshotIcon />} />
+      <BottomNavigationAction label="Movies" 
+      style={{color: "white"}}
+      icon={<MovieIcon />} />
+      <BottomNavigationAction label="Tv" 
+      style={{color: "white"}}
+      icon={<TvIcon />} />
+      <BottomNavigationAction label="Search" 
+      style={{color: "white"}}
+      icon={<SearchIcon />} />
     </BottomNavigation>
   );
 }

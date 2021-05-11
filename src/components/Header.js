@@ -4,7 +4,7 @@ import './header.css'
 const Header = () => {
     return (
         <div className="header">
-            <span className="title"> 🎥 Movies & TV Series Hub🎬</span>
+            <span className="title" onClick={()=>window.scroll(0,0)}> 🎥 Movies & TV Series Hub🎬</span>
         </div>
     )
 }

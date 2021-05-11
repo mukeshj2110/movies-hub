@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.trending{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pageTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4px;
+}
+
+@media (max-width: 1000px){
+    .pageTitle{
+        font-size: 6vw;
+    }
+}

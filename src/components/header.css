@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+.title{
+    cursor: pointer;
+}
 .header{
     width: 100%;
     display: flex;
@@ -8,5 +17,12 @@
     position: fixed;
     z-index: 1;
     box-shadow: 0px 1px 5px black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
+@media (max-width:1000px){
+    .header{
+        font-size: 6.4vw;
+    }
+}
