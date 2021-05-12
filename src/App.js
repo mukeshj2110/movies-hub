@@ -20,7 +20,7 @@ function App() {
       <Route path="/" component={Trending} exact/>
       <Route path="/movies" component={Movies} />
       <Route path="/tv" component={Tv} />
-      <Route path="/serach" component={Search} />
+      <Route path="/search" component={Search} />
       </Switch>
       </Container>
     </div>
